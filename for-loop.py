@@ -62,3 +62,11 @@ print("     continue : Skips the rest of the current  iteration and go to the ne
 print(
     "     else : runs when the loop finishes all iterations (not interrupted by - break -"
 )
+print(" ")
+print("Example")
+print(" ")
+print("break")
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
