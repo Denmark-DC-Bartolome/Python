@@ -48,7 +48,7 @@ while age <= 0:
     age = int(input("Enter your age"))
 print(f"you are {age} years old")
 
-passcode = int(input("Enter Passcode(number only!: )"))
+passcode = int(input("Enter Passcode(number only!: "))
 while passcode != 143:
     print("wrong passcode.")
     passcode = int(input("Try again: "))
@@ -56,3 +56,9 @@ print("Welcome!")
 
 
 print("===============================================")
+print("Loop Control Statement")
+print("     break : Exits Loops immediately")
+print("     continue : Skips the rest of the current  iteration and go to the next ")
+print(
+    "     else : runs when the loop finishes all iterations (not interrupted by - break -"
+)
